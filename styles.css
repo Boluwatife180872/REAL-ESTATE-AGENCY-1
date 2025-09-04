@@ -153,6 +153,27 @@ body {
 } */
 
 /* Updated Hero Section (No Search Bar) */
+/* Fix for hero text overlapping navbar */
+/* .hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 20px 50px;
+  box-sizing: border-box;
+} */
+
+/* Ensure hero content stays visible on smaller screens */
+.hero h1,
+.hero p {
+  margin: 0 auto;
+  max-width: 90%;
+  line-height: 1.4;
+}
+
+
 .hero {
     height: 100vh;
     background: linear-gradient(rgba(44, 90, 160, 0.8), rgba(44, 90, 160, 0.8)),
@@ -162,6 +183,10 @@ body {
     justify-content: center;
     text-align: center;
     color: white;
+    position: relative;
+    min-height: 100vh;
+    padding: 100px 20px 50px;
+    box-sizing: border-box;
 }
 
 .hero-content h1 {
