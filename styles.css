@@ -1035,3 +1035,17 @@ textarea:focus {
         color: #2c5aa0;
     }
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 210px 15px 60px; /* more top padding for smaller screens */
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
